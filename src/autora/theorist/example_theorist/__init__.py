@@ -32,7 +32,7 @@ class ExampleRegressor(BaseEstimator):
             """
 
             """
-        pass
+        return self
 
     def predict(self,
                 conditions: Union[pd.DataFrame, np.ndarray]) -> Union[pd.DataFrame, np.ndarray]:
