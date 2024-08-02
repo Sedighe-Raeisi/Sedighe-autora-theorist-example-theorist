@@ -26,6 +26,9 @@ class ExampleRegressor(BaseEstimator):
     def __init__(self):
         pass
 
+    def newfunc(self):
+        pass
+
     def fit(self,
             conditions: Union[pd.DataFrame, np.ndarray],
             observations: Union[pd.DataFrame, np.ndarray]):
